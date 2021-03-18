@@ -1,0 +1,22 @@
+ul {
+  background-color: lavender;
+  padding: 20px;
+  display: flex;
+}
+
+/* Flex Items => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: teal;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*------------------------FLEX SHORTHAND--------------------*/
+/* The flex shorthand property takes on the three values of flex-grow, flex-shrink and flex-basis */
+/* Flex Shorthand (flex-grow flex-shrink flex-basis) */
+
+li:first-child {
+  flex: 1 0 20rem;
+}
