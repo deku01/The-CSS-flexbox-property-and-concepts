@@ -1,0 +1,48 @@
+ul {
+  background-color: lavender;
+  padding: 20px;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Flex Items => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: teal;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*-*-*-*-*-*-*-*-*-*-----ALIGN SELF-----*-*-*-*-*-*-*-*-*-*/
+
+/* Auto (Default) => Aligns according to parent's aling-items property's value */
+/* li:first-child {
+  align-self: auto;
+} */
+
+/* Flex End */
+li:first-child {
+  align-self: flex-end;
+}
+
+/* Center */
+li:nth-child(2) {
+  align-self: center;
+}
+
+/* Stretch */
+li:nth-child(3) {
+  align-self: stretch;
+}
+
+/* Baseline */
+li:nth-child(4) {
+  align-self: baseline;
+}
+
+/* Flex Start */
+li:nth-child(5) {
+  align-self: flex-start;
+}
