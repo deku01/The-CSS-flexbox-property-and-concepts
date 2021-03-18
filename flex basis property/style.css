@@ -1,0 +1,21 @@
+ul {
+  background-color: lavender;
+  padding: 20px;
+  display: flex;
+}
+
+/* Flex Items => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: teal;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*------------------------FLEX BASIS--------------------*/
+/* The flex-basis actually specifies the initial size of a flex item before flex-grow or flex-shrink properties adjust its size to fit the container or not */
+/* Flex basis (Default => Auto) */
+li:first-child {
+  flex-basis: 25rem;
+}
