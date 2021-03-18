@@ -1,0 +1,23 @@
+ul {
+  background-color: lavender;
+  padding: 20px;
+  display: flex;
+}
+
+/* Flex Items => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: teal;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Flex Items Properties => Children */
+/*-*-*-*-*-*-*-*-*-*-----FLEX SHRINK-----*-*-*-*-*-*-*-*-*-*/
+/* Flex Shrink (Default => 1 => ON) */
+/* The flex-shrink property allows us to manipulate how any flex item is shrink when window is getting smaller and smaller */
+
+li:first-child {
+  flex-shrink: 0;
+}
